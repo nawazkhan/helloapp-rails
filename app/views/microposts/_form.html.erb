@@ -1,3 +1,4 @@
+<% provide(:title, 'micropost form page') %>
 <%= form_with(model: micropost, local: true) do |form| %>
   <% if micropost.errors.any? %>
     <div id="error_explanation">
